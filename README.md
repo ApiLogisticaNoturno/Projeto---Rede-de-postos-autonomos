@@ -2,7 +2,7 @@
 
 **Projeto de Logística | Power BI + Python**
 
-Primeiro projeto do meu portfólio. O objetivo é desenvolver um case pioneiro para uma rede de **postos de combustíveis autônomos** (sem frentista) na região do Vale do Paraíba/SP.
+O objetivo desse projeto é desenvolver um case pioneiro para uma rede de **postos de combustíveis autônomos** (sem frentista) na região do Vale do Paraíba/SP.
 
 ### 🎯 Objetivo do Projeto
 - Identificar a melhor localização para novos postos autônomos
