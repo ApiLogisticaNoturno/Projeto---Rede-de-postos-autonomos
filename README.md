@@ -22,7 +22,11 @@ O objetivo desse projeto é desenvolver um case pioneiro para uma rede de **post
 - [x] Repositório criado no GitHub
 - [x] Dados brutos da ANP baixados
 - [x] Script de limpeza executado  
-  → 8.692 postos totais → **204 postos filtrados no Vale do Paraíba**
 - [x] Primeiro commit realizado
+- [x] Script de limpeza dos dados ANP (204 postos)
+- [x] Busca de coordenadas exatas (100 postos)
+- [x] Coordenadas completadas por município (104 aproximadas)
+- [x] Arquivo final com 204 postos e lat/long pronto para Power BI
+- [x] Commit realizado com avanço de geolocalização
 
 ### 📂 Estrutura do Projeto
