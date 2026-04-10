@@ -23,7 +23,6 @@ geolocator = Nominatim(user_agent="postos_autonomos_vale_paraiba_portfolio")
 geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1.2)
 
 print("🚀 Iniciando busca de coordenadas com endereço completo...")
-print("Isso vai demorar cerca de 4 a 6 minutos para 204 postos...")
 
 # Carregar os dados
 df = pd.read_csv(arquivo_entrada)

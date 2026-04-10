@@ -1,7 +1,7 @@
 # =============================================
 # Script 03 - Completar coordenadas faltantes por município
 # Projeto: Rede de Postos Autônomos - Vale do Paraíba
-# Objetivo: Preencher os 104 postos sem coordenada usando o centro do município
+# Objetivo: Preencher os postos sem coordenada usando o centro do município
 # =============================================
 
 import pandas as pd
@@ -25,20 +25,20 @@ df = pd.read_csv(arquivo_entrada)
 # (valores reais e confiáveis)
 coordenadas_municipio = {
     'APARECIDA': (-22.8514, -45.2347),
-    'ARAPEÍ': (-22.6719, -44.9453),
+    'ARAPEI': (-22.6719, -44.9453),
     'AREIAS': (-22.5803, -44.7006),
     'BANANAL': (-22.6825, -44.3231),
     'CAÇAPAVA': (-23.0992, -45.7078),
     'CACHOEIRA PAULISTA': (-22.6653, -45.0128),
-    'CAMPOS DO JORDÃO': (-22.7394, -45.5914),
+    'CAMPOS DO JORDAO': (-22.7394, -45.5914),
     'CANAS': (-22.7272, -45.0522),
     'CARAGUATATUBA': (-23.6203, -45.4128),
     'CRUZEIRO': (-22.5719, -44.9642),
     'CUNHA': (-23.0747, -44.9600),
-    'GUARATINGUETÁ': (-22.8164, -45.1925),
-    'IGARATÁ': (-23.2047, -46.0000),
+    'GUARATINGUETA': (-22.8164, -45.1925),
+    'IGARATA': (-23.2047, -46.0000),
     'ILHABELA': (-23.7781, -45.3581),
-    'JACAREÍ': (-23.3053, -45.9658),
+    'JACAREI': (-23.3053, -45.9658),
     'JAMBEIRO': (-23.2536, -45.6889),
     'LAGOINHA': (-22.9375, -45.1931),
     'LAVRINHAS': (-22.5708, -44.8917),
@@ -50,17 +50,17 @@ coordenadas_municipio = {
     'PIQUETE': (-22.6033, -45.1761),
     'POTIM': (-22.8517, -45.2542),
     'QUELUZ': (-22.5364, -44.7778),
-    'REDENÇÃO DA SERRA': (-23.2669, -45.5369),
+    'REDENÇAO DA SERRA': (-23.2669, -45.5369),
     'ROSEIRA': (-22.8986, -45.3069),
-    'SANTA BRÍGIDA': (-22.7539, -45.1217),   # ajuste se necessário
+    'SANTA BRIGIDA': (-22.7539, -45.1217),   # ajuste se necessário
     'SANTA ISABEL': (-23.3153, -46.2214),
-    'SÃO BENTO DO SAPUCAÍ': (-22.6889, -45.7397),
-    'SÃO JOSÉ DOS CAMPOS': (-23.1791, -45.8872),
-    'SÃO LUÍS DO PARAITINGA': (-23.2219, -45.3106),
-    'SÃO SEBASTIÃO': (-23.7600, -45.4097),
+    'SAO BENTO DO SAPUCAI': (-22.6889, -45.7397),
+    'SAO JOSE DOS CAMPOS': (-23.1791, -45.8872),
+    'SAO LUIS DO PARAITINGA': (-23.2219, -45.3106),
+    'SAO SEBASTIÃO': (-23.7600, -45.4097),
     'SILVEIRAS': (-22.6639, -44.8522),
-    'TAUBATÉ': (-23.0264, -45.5556),
-    'TREMEMBÉ': (-22.9583, -45.5464),
+    'TAUBATE': (-23.0264, -45.5556),
+    'TREMEMBE': (-22.9583, -45.5464),
     'UBATUBA': (-23.4331, -45.0711),
     'VARGEM': (-22.8917, -46.1833)
 }
