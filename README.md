@@ -28,5 +28,12 @@ O objetivo desse projeto é desenvolver um case pioneiro para uma rede de **post
 - [x] Coordenadas completadas por município (104 aproximadas)
 - [x] Arquivo final com 204 postos e lat/long pronto para Power BI
 - [x] Commit realizado com avanço de geolocalização
+- [x] Repositório criado e organizado no GitHub
+- [x] Script 01_v2: Limpeza correta dos dados ANP (488 postos no Vale do Paraíba)
+- [x] Scripts 02_v4 + 03: Geocodificação de coordenadas (exatas + aproximadas)
+- [x] Script 04_v2: Análise de densidade de postos × população
+- [x] Identificadas cidades prioritárias para expansão de postos autônomos
+- [ ] Mapa interativo no Power BI
+- [ ] Análise de concorrência e tráfego rodoviário
 
 ### 📂 Estrutura do Projeto
